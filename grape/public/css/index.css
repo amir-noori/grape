@@ -1,0 +1,403 @@
+body{
+	background-color:#666666;
+	margin:0;
+	padding:0;
+	background-image: url('http://grape.com:8888/public/images/body-bg1.png');
+}
+
+.generalText{
+	color:silver;
+	font-family:Monaco,Courier New;
+	font-size:18px;
+	text-align:center;
+}
+
+.generalInput{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:17px;
+	cursor:pointer;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+.error{
+	color:red;
+	font-family: Monaco,Courier New;
+	font-size:17px;
+}
+
+.chooseRadio{
+	cursor:pointer;
+	display:inline-block;
+    margin:-2px;
+    padding: 4px 12px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+}
+
+#mainContainer{
+	width:1300px;
+	background-color:#404E5E;
+	height:auto;
+	min-height:900px;
+}
+
+#header{
+	height:150px;
+	width:auto;
+	background-color:#3B4B5E;
+	background-image: url('../images/grape3.jpg');
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	margin:auto;	
+}
+
+#settingMenu{
+	height:40px;
+	width:50px;
+	float:right;
+	background-color:#486D73;
+	margin-right:20px;
+	margin-top:10px;
+	z-index:1;	
+	position:relative;
+	opacity:0.8;
+	box-shadow: 2px 2px 2px #086D73;
+	border:solid 2px;
+	border-color:#286D73;
+	border-radius:3px;
+}
+
+#gearImage{
+	width:50px;
+	height:40px;
+	float:right;
+}
+
+#gearImage:hover{
+	cursor:pointer;
+	opacity:0.9;
+}
+
+#logIn{
+	margin-top:50px;
+	margin-left:10px;
+	font-family: Monaco,Courier New;
+}
+
+#logIn td{
+	font-size:14px;
+	color:silver;
+}
+
+#logIn input{
+	font-size:14px;
+	border-radius:7px;
+	background-color:#211F30;
+	color:silver;
+	opacity:0.7;
+}
+
+#settingStuff{
+	display:none;
+}
+
+.settingLink{
+	margin-left:10px;
+	text-decoration:none;
+	font-size:14px;
+	color:silver;
+	font-family: Monaco,Courier New;
+}
+
+.settingLink:hover{
+	color:#1C2652;
+}
+
+#registerDiv{
+	margin-top:80px;
+	margin-left:10px;
+	display:none;
+	font-family: Monaco,Courier New;
+}
+
+#registerDiv td{
+	font-size:12px;
+	color:silver;
+}
+
+#registerDiv input{
+	border-radius:7px;
+	background-color:#211F30;
+	color:silver;
+	opacity:0.7;
+}
+
+#logOut{
+	margin-top:200px;
+}
+
+#logOutLink{
+	margin-left:30px;
+	margin-top:1000px;
+	text-decoration:none;
+	font-size:12px;
+	color:silver;
+	font-family: Monaco,Courier New;
+	background-color:#511F30;
+	border-radius:5px;
+}
+
+#logOutLink:hover{
+	font-style:italic;
+	background-color:#811F30;
+}
+
+#topMenu{
+	height:27px;
+	width:auto;
+	background-color:#486D73;
+	margin:auto;
+	border-bottom:solid 2px;
+	border-top:solid 2px;
+	border-color:#555555;
+}
+#topMenu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#topMenu ul li{
+	display:inline;
+	list-style-type: none;
+	margin-left:30px;
+}
+
+#topMenu ul li a{
+	text-decoration:none;
+	top:30px;
+	color:#211F30;
+	font-size:22px;
+	font-family: Arial;
+	background-border:2px;
+}
+#topMenu ul li a:hover{
+	color:blue;
+	font-style:italic;
+	color:#9C2652;
+}
+
+#subMenu{
+	height:80px;
+	width:auto;
+	background-color:#4E5C5E;
+	margin:auto;
+	padding-top:0;
+	display:none;
+	opacity:0;
+	border-radius:5px;
+	border:solid;
+	border-width:2px;
+	border-color:#A1A1A1;
+	text-align:center;
+}
+
+#subMenu span{
+	display:none;
+	
+}
+
+#subMenu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#subMenu ul li{
+	display:inline;
+	list-style-type: none;
+	margin-left:70px;
+}
+
+#subMenu ul li a{
+	text-decoration:none;
+	top:30px;
+	color:silver;
+	font-size:18px;
+	font-family: Monaco,Courier New;
+}
+
+#subMenu ul li a:hover{
+	color:blue;
+	font-style:italic;
+	color:#68DB89;
+}
+
+#middle{
+	width:1200px;
+	margin-left:300px;
+	margin-right:200px;
+	margin-top:-550px;
+	height:auto;
+}
+
+.directory{
+	color:#404F66;
+	padding: 2px;
+}
+.directory:hover{
+	color:purple;
+	cursor:pointer;
+}
+
+.file{
+	color:#271D2E;
+	padding: 2px;
+}
+
+.file:hover{
+	color:#358F9C;
+	cursor:pointer;
+}
+
+.treeContainer{
+	list-style-type:none;
+	padding: 10px;
+}
+
+.childContainer{
+	border:solid;
+	border-width:1px;
+	border-radius:2px;
+	border-color:silver;
+}
+
+.fileWrapper{
+	border:solid;
+	border-width:1px;
+	background-color:#C5C0F0;
+	border-radius:3px;
+}
+
+.dirImage{
+	width:16px;
+	height:13px;
+	border-radius:2px;
+	text-decoration:none;
+}
+
+#fileContent{
+	width:900px;
+	height:580px;
+	background-color:#1F1D2E;
+	margin-top:-520px;
+	border-radius:5px;
+	margin-left:350px;
+	color:silver;
+	display:none;
+}
+
+#fileContentArea{
+	margin-left:10px;
+	margin-top:80px;
+	border-radius:3px;
+	background-color:#C1BFD6;
+}
+
+#saveContent{
+	background-color:gray;
+	border-radius:3px;
+	font-size:20px;
+	color:black;
+	border:solid;
+	border-width:2px;
+	text-decoration:none;
+	margin-top:3px;
+	width:50px;
+	margin-left:10px;
+	position:absolute;
+	text-align:center;
+}
+
+#saveContent:hover {
+	background-color:#AF704D;
+}
+
+#saveContent:active {
+	background-color:#FF704D;
+}
+
+/* tabs started: */
+
+#tabMinContainer{
+	margin-top:50px;
+	height:550px;
+	width:30px;
+	background-color:#3B4B5E;
+	border-radius:2px;
+}
+
+.tabMin{
+	height:30px;
+	width:30px;
+	background-color:#3B4B5E;
+	border:solid;
+	border-width:1px;
+	border-color:#6B4B5E;
+}
+
+.tabMin:hover{
+	opacity:0.8;
+	height:32px;
+	width:32px;
+	cursor:pointer;
+}
+
+
+.tabMinImg:hover{
+}
+
+#tabMaxContainer{
+}
+
+.tabMax{
+	overflow-y:auto;
+	height:600px;
+	width:300px;
+	background-color:#1F1D2E;
+	display:none;
+	border-radius:5px;
+	margin-top:-580px;
+	margin-left:30px;
+	opacity:0.8;
+	border:solid;
+	border-width:1px;
+	border-color:gray;
+	position:absolute;
+	z-index:1;
+}
+
+/* tabs ended */
+
+/*footer started*/
+
+#footer{
+	height:100px;
+	width:auto;
+	background-color:#06051A;
+	color:silver;
+	margin-top:60%;
+}
+
+/*footer ended*/
+
+.arrowUp {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;	
+	border-bottom: 15px solid #eee;
+}

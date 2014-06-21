@@ -1,0 +1,108 @@
+body{
+	background-color:#FFC9FB;
+	font-size:22px;
+}
+
+#mainContainer{
+	margin:auto;
+	width:70%;
+	min-height:1000px;
+	height:auto;
+	background-color:#eee;
+	border-radius:5px;
+	margin-top:100px;
+}
+
+#topMenu{
+	width:900px;
+	margin:auto;
+}
+
+
+/* MENU */
+
+#nav {	
+	width:100%;
+	margin:auto;
+ 	background: pink;
+ 	border: 1px solid white;
+ 	border-bottom: none;
+}
+
+#nav li a, #nav li {
+ float: left;
+}
+
+#nav li {
+ list-style: none;
+ position: relative;
+}
+
+#nav li a {
+ padding: 1em 2em;
+ text-decoration: none;
+ color: white;
+ background: pink;
+ background: -moz-linear-gradient(top, black, pink 1px, #ED6BE2 25px);
+ background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, pink), to(#ED6BE2));
+ border-right: 1px solid #3c3c3c;
+ border-left: 1px solid #292929;
+ border-bottom: 1px solid #232323;
+ border-top: 1px solid #545454;
+}
+
+#nav li a:hover {
+ background: #AD6BE2;
+ background: -moz-linear-gradient(top, #AD6BE2, #CD6BE2);
+ background: -webkit-gradient(linear, left top, left bottom, from(#AD6BE2), to(#CD6BE2));
+}
+
+
+/* Submenu */
+
+.hasChildren {
+	position: absolute;
+	width: 5px; height: 5px;
+	background: black;
+	right : 0;
+	bottom: 0;
+}
+
+#nav li ul {
+ display: none;
+ position: absolute;
+ left: 0;
+ top: 100%;
+ padding: 0; margin: 0;
+}
+
+#nav li:hover > ul {
+ display: block;
+}
+
+#nav li ul li, #nav li ul li a {
+ float: none;
+}
+
+#nav li ul li {
+ _display: inline; /* for IE6 */
+}
+
+#nav li ul li a {
+ width: 150px;
+ display: block;
+}
+
+/* SUBSUB Menu */
+
+#nav li ul li ul {
+ display: none;
+}
+
+#nav li ul li:hover ul {
+ left: 100%;
+ top: 0;
+}
+
+
+#nav li ul

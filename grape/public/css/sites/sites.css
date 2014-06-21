@@ -1,0 +1,12 @@
+.createNewSiteColumn{
+	color:silver;
+	font-family:Monaco,Courier New;
+	font-size:18px;
+	text-align:center;
+}
+
+.themeImage{
+	width:160px;
+	height:150px;
+	cursor:pointer;
+}

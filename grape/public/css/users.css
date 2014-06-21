@@ -1,0 +1,56 @@
+#searchUserInput{
+	margin-left:600px;
+}
+
+.userPanelButton{
+	color:silver;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:20px;
+	background-color:#4A4FA8;
+	border-color:#8A4FA8;
+	border-radius:3px;
+	width:200px;
+	text-align:center;
+}
+
+.userPanelButton:hover{
+	color:#F8DB89;
+}
+
+#createNewUserContainer{
+	height:400px;
+	width:750px;
+	border:solid;
+	background-color:#3B4B5E;
+	border-color:#5B4B5E;
+	display:none;
+	border-radius:2px;
+}
+
+.chooseUserPageNumber{
+	cursor:pointer;
+	background-color:#3B4B5E;
+	font-family:Arial;
+	font-size:24px;
+	color:silver;
+}
+
+.chooseUserPageNumber:hover{
+	color:#4A4FA8;
+
+}
+
+.createNewUserColumn{
+	color:silver;
+	font-family:Monaco,Courier New;
+	font-size:18px;
+	text-align:center;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+
+.genralTable{
+	background-color:#3A4FA8;
+	font-family: Monaco,Courier New;
+	padding:0px;
+	border:solid;
+	border-width:1px;
+	border-color:#3A4FA8;
+	border-radius:5px;
+}
+
+.genralTable td{
+	padding:0px;
+	border:solid;
+	border-width:2px;
+	border-color:#0A4FA8;
+	border-radius:2px;
+}
+
+.genralTable th{
+	background-color:#3A4FA8;
+	font-size:22px;
+	color:#211F30;
+	border:solid;
+	border-width:3px;
+	border-color:#616591;
+}
+
+.genralTable tr:nth-child(odd){
+	background-color:#7A4FA8;
+	text-align:center;
+}
+
+.genralTable tr:nth-child(even){
+	background-color:#5A4FA8;
+	text-align:center;
+}
+
+.middleTableTitle{
+	color:silver;
+	cursor:pointer;
+}
+
+.middleTableTitle:hover{
+	color:silver;
+	color:#38DB89;
+}
+
+.middleTableDate , .middleTabGeneral{
+	color:silver;
+}
+
+.middleTableEdit{
+	color:silver;
+}
+
+.middleTableEdit:hover{
+	color:#68DB89;
+	cursor:pointer;
+}
+
+.middleTableDelete{
+	color:silver;
+}
+
+.middleTableDelete:hover{
+	color:#F32974;
+	cursor:pointer;
+}
+
+#createNewPage{
+	height:400px;
+	width:300px;
+	display:none;
+	background-color:#1F1D2E;	
+	border-radius:3px;
+	position:absolute;
+	font-family: Monaco,Courier New;
+}
+
+#createNewPage td{
+	color:silver;
+}
+
+#createNewPage input{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:17px;
+	cursor:pointer;
+}
+
+#createNewPage textarea{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:14px;
+	resize:none;
+}
+
+#createNewArticle{
+	height:400px;
+	width:300px;
+	display:none;
+	background-color:#1F1D2E;	
+	border-radius:3px;
+	position:absolute;
+	font-family: Monaco,Courier New;
+}
+
+#createNewArticle td{
+	color:silver;
+}
+
+#createNewArticle input{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:17px;
+	cursor:pointer;
+}
+
+#createNewArticle textarea{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:14px;
+	resize:none;
+}
+
+#articleInfo{
+	height:1500px;
+	width:950px;
+	background-color:#1F1D2E;
+	color:silver;
+	font-size:18px;
+	font-family: Monaco,Courier New;
+}
+
+#articleInfo table{
+	margin-left:30px;
+}
+
+#articleInfo input{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:14px;
+}
+
+#articleInfo textarea{
+	border-radius:3px;
+	background-color:#4A4FA8;
+	color:silver;
+	font-family: Monaco,Courier New;
+	font-size:14px;
+	margin-left:30px;
+}
+
+#articleInfo h3{
+	margin-left:30px;
+}
+
+#articleInfo td{
+	color:silver;
+	font-size:18px;
+	font-family: Monaco,Courier New;
+}
+
+#articleText{
+	margin-left:30px;
+}
+
+.tableHeader{
+	color:silver;
+	font-family: Monaco,Courier New;
+}
+
+.back_button_img{
+	width:45px;
+	height:30px;
+	margin-left:500px;
+	cursor:pointer;
+}

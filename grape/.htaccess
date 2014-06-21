@@ -1,0 +1,11 @@
+
+#RedirectMatch ^/aaa/$ http://localhost:8888/angoor/redirect.php
+
+
+
+RewriteEngine on
+
+#RewriteRule ^()$ index.php
+RewriteRule ^(site/.+)$ redirect.php?dir=$1 [QSA,L]
+
+
